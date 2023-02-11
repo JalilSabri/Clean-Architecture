@@ -1,0 +1,17 @@
+.vs
+Core\CleanArch.Core.Application\bin
+Core\CleanArch.Core.Application\Obj
+Core\CleanArch.Core.Domain\bin
+Core\CleanArch.Core.Domain\Obj
+Core\CleanArch.Core.Application\bin
+Core\CleanArch.Core.Application\Obj
+Infrastructure\CleanArch.Infrastructure.Data\bin
+Infrastructure\CleanArch.Infrastructure.Data\Obj
+Infrastructure\CleanArch.Infrastructure.Data\bin
+Infrastructure\CleanArch.Infrastructure.Data\Obj
+Presentation\CleanArch.UI\bin
+Presentation\CleanArch.UI\obj
+Presentation\CleanArch.API\bin
+Presentation\CleanArch.API\obj
+Test\CleanArch.UnitTest\bin
+Test\CleanArch.UnitTest\Obj

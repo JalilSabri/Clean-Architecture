@@ -1,0 +1,12 @@
+F:\Companies\Github Projects\Architectures\CleanArch\Infrastructure\CleanArch.Infrastructure.Data\bin\Debug\net6.0\CleanArch.Infrastructure.Data.deps.json
+F:\Companies\Github Projects\Architectures\CleanArch\Infrastructure\CleanArch.Infrastructure.Data\bin\Debug\net6.0\CleanArch.Infrastructure.Data.dll
+F:\Companies\Github Projects\Architectures\CleanArch\Infrastructure\CleanArch.Infrastructure.Data\bin\Debug\net6.0\CleanArch.Infrastructure.Data.pdb
+F:\Companies\Github Projects\Architectures\CleanArch\Infrastructure\CleanArch.Infrastructure.Data\obj\Debug\net6.0\CleanArch.Infrastructure.Data.csproj.AssemblyReference.cache
+F:\Companies\Github Projects\Architectures\CleanArch\Infrastructure\CleanArch.Infrastructure.Data\obj\Debug\net6.0\CleanArch.Infrastructure.Data.GeneratedMSBuildEditorConfig.editorconfig
+F:\Companies\Github Projects\Architectures\CleanArch\Infrastructure\CleanArch.Infrastructure.Data\obj\Debug\net6.0\CleanArch.Infrastructure.Data.AssemblyInfoInputs.cache
+F:\Companies\Github Projects\Architectures\CleanArch\Infrastructure\CleanArch.Infrastructure.Data\obj\Debug\net6.0\CleanArch.Infrastructure.Data.AssemblyInfo.cs
+F:\Companies\Github Projects\Architectures\CleanArch\Infrastructure\CleanArch.Infrastructure.Data\obj\Debug\net6.0\CleanArch.Infrastructure.Data.csproj.CoreCompileInputs.cache
+F:\Companies\Github Projects\Architectures\CleanArch\Infrastructure\CleanArch.Infrastructure.Data\obj\Debug\net6.0\CleanArch.Infrastructure.Data.dll
+F:\Companies\Github Projects\Architectures\CleanArch\Infrastructure\CleanArch.Infrastructure.Data\obj\Debug\net6.0\refint\CleanArch.Infrastructure.Data.dll
+F:\Companies\Github Projects\Architectures\CleanArch\Infrastructure\CleanArch.Infrastructure.Data\obj\Debug\net6.0\CleanArch.Infrastructure.Data.pdb
+F:\Companies\Github Projects\Architectures\CleanArch\Infrastructure\CleanArch.Infrastructure.Data\obj\Debug\net6.0\ref\CleanArch.Infrastructure.Data.dll
