@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
@@ -12,5 +13,7 @@ namespace CleanArch.Core.Domain.Entites.Common
         public IdType Id { get; set; }
         public DateTime ModifiedDate { get; set; }
     }
+
+   
 }
 

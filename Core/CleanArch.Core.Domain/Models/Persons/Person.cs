@@ -7,6 +7,8 @@ namespace CleanArch.Core.Domain.Models.Persons
     [Table("tblPerson")]
     public class Person : TBaseEntity<int>
     {
+        //public int Id { get; set; }
+
         [MaxLength(100)]
         [Display(Name = "First Name")]
         public string? FirstName { get; set; }
@@ -19,5 +21,9 @@ namespace CleanArch.Core.Domain.Models.Persons
         [NotMapped()]
         [Display(Name = "Full Name")]
         public string FullName { get => $"{FirstName ?? "No Name"} {LastName}"; }
+
+        public Customer customers { get; set; }
+
+        public SalesPerson salesPerson { get; set; }
     }
 }

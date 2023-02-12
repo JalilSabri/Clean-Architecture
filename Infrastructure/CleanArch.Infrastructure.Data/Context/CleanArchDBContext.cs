@@ -1,4 +1,5 @@
-﻿using CleanArch.Core.Domain.Models.Persons;
+﻿using CleanArch.Core.Domain.Models.Order;
+using CleanArch.Core.Domain.Models.Persons;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -15,6 +16,11 @@ namespace CleanArch.Infrastructure.Data.Context
 
         }
 
-        public DbSet<Person> people { get; set; }
+        public DbSet<Person> persons { get; set; }
+        public DbSet<Customer> customers { get; set; }
+        public DbSet<SalesPerson> salesPerson { get; set; }
+        public DbSet<Orders> orders { get; set; }
+        public DbSet<OrderItems> orderItems { get; set; }
+        public DbSet<OrderStatus> orderStatuses { get; set; }
     }
 }
