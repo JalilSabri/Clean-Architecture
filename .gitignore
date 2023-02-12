@@ -15,3 +15,4 @@ Presentation\CleanArch.API\bin
 Presentation\CleanArch.API\obj
 Test\CleanArch.UnitTest\bin
 Test\CleanArch.UnitTest\Obj
+Core\CleanArch.Core.Domain\Models\Draft
