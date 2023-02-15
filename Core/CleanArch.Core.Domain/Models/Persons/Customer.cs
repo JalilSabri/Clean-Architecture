@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace CleanArch.Core.Domain.Models.Persons
 {
-    [Table("tblCustomer")]
+    [Table("tblCustomers")]
     public class Customer : TBaseEntity<string>
     {
         public Customer()

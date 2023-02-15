@@ -15,3 +15,5 @@ F:\Companies\Github Projects\Architectures\CleanArch\Infrastructure\CleanArch.In
 F:\Companies\Github Projects\Architectures\CleanArch\Infrastructure\CleanArch.Infrastructure.Data\obj\Debug\net6.0\CleanArch.Infrastructure.Data.csproj.CopyComplete
 F:\Companies\Github Projects\Architectures\CleanArch\Infrastructure\CleanArch.Infrastructure.Data\bin\Debug\net6.0\CleanArch.Infrastructure.Data.runtimeconfig.json
 F:\Companies\Github Projects\Architectures\CleanArch\Infrastructure\CleanArch.Infrastructure.Data\obj\Debug\net6.0\CleanArch.Infrastructure.Data.genruntimeconfig.cache
+F:\Companies\Github Projects\Architectures\CleanArch\Infrastructure\CleanArch.Infrastructure.Data\bin\Debug\net6.0\CleanArch.Core.Contracts.dll
+F:\Companies\Github Projects\Architectures\CleanArch\Infrastructure\CleanArch.Infrastructure.Data\bin\Debug\net6.0\CleanArch.Core.Contracts.pdb

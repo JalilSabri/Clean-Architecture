@@ -7,14 +7,40 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "CleanArch.Core.Application/1.0.0": {
+        "dependencies": {
+          "CleanArch.Core.Contracts": "1.0.0"
+        },
         "runtime": {
           "CleanArch.Core.Application.dll": {}
+        }
+      },
+      "CleanArch.Core.Contracts/1.0.0": {
+        "dependencies": {
+          "CleanArch.Core.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CleanArch.Core.Contracts.dll": {}
+        }
+      },
+      "CleanArch.Core.Domain/1.0.0": {
+        "runtime": {
+          "CleanArch.Core.Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
     "CleanArch.Core.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CleanArch.Core.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CleanArch.Core.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

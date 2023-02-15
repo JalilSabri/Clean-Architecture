@@ -632,6 +632,19 @@
           }
         }
       },
+      "CleanArch.Core.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CleanArch.Core.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CleanArch.Core.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CleanArch.Core.Contracts.dll": {}
+        }
+      },
       "CleanArch.Core.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1861,6 +1874,11 @@
         "version.txt"
       ]
     },
+    "CleanArch.Core.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../../Core/CleanArch.Core.Contracts/CleanArch.Core.Contracts.csproj",
+      "msbuildProject": "../../Core/CleanArch.Core.Contracts/CleanArch.Core.Contracts.csproj"
+    },
     "CleanArch.Core.Domain/1.0.0": {
       "type": "project",
       "path": "../../Core/CleanArch.Core.Domain/CleanArch.Core.Domain.csproj",
@@ -1869,6 +1887,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "CleanArch.Core.Contracts >= 1.0.0",
       "CleanArch.Core.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.0",
@@ -1907,6 +1926,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "F:\\Companies\\Github Projects\\Architectures\\CleanArch\\Core\\CleanArch.Core.Contracts\\CleanArch.Core.Contracts.csproj": {
+              "projectPath": "F:\\Companies\\Github Projects\\Architectures\\CleanArch\\Core\\CleanArch.Core.Contracts\\CleanArch.Core.Contracts.csproj"
+            },
             "F:\\Companies\\Github Projects\\Architectures\\CleanArch\\Core\\CleanArch.Core.Domain\\CleanArch.Core.Domain.csproj": {
               "projectPath": "F:\\Companies\\Github Projects\\Architectures\\CleanArch\\Core\\CleanArch.Core.Domain\\CleanArch.Core.Domain.csproj"
             }

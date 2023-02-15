@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "CleanArch.Core.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CleanArch.Core.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CleanArch.Core.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CleanArch.Core.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CleanArch.Core.Domain/CleanArch.Core.Domain.csproj",
+      "msbuildProject": "../CleanArch.Core.Domain/CleanArch.Core.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "CleanArch.Core.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\JalilSabri\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\Companies\\Github Projects\\Architectures\\CleanArch\\Core\\CleanArch.Core.Domain\\CleanArch.Core.Domain.csproj": {
+              "projectPath": "F:\\Companies\\Github Projects\\Architectures\\CleanArch\\Core\\CleanArch.Core.Domain\\CleanArch.Core.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

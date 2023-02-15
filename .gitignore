@@ -9,10 +9,12 @@ Infrastructure\CleanArch.Infrastructure.Data\bin
 Infrastructure\CleanArch.Infrastructure.Data\Obj
 Infrastructure\CleanArch.Infrastructure.Data\bin
 Infrastructure\CleanArch.Infrastructure.Data\Obj
-Presentation\CleanArch.UI\bin
-Presentation\CleanArch.UI\obj
+Presentation\CleanArch.MVCUI\bin
+Presentation\CleanArch.MVCUI\obj
 Presentation\CleanArch.API\bin
 Presentation\CleanArch.API\obj
 Test\CleanArch.UnitTest\bin
 Test\CleanArch.UnitTest\Obj
 Core\CleanArch.Core.Domain\Models\Draft
+Presentation\CleanArch.RazorUI\bin
+Presentation\CleanArch.RazorUI\obj

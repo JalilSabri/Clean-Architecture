@@ -4,7 +4,7 @@ using CleanArch.Core.Domain.Entites.Common;
 
 namespace CleanArch.Core.Domain.Models.Persons
 {
-    [Table("tblPerson")]
+    [Table("tblPersons")]
     public class Person : TBaseEntity<int>
     {
         //public int Id { get; set; }

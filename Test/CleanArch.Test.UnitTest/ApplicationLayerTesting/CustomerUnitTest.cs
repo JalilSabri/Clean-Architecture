@@ -1,9 +1,9 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Microsoft.EntityFrameworkCore;
 using CleanArch.Infrastructure.Data.Context;
-using CleanArch.Core.Application.Services;
-using CleanArch.Infrastructure.Data.Repositories;
 using CleanArch.Core.Domain.Models.Persons;
+using CleanArch.Infrastructure.Data.Repositories.Persons;
+using CleanArch.Core.Application.Services.Persons;
 
 namespace CleanArch.Test.UnitTest.ApplicationLayerTesting
 {
