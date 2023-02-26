@@ -11,6 +11,30 @@ build_property.RootNamespace = CleanArch.MVCUI
 build_property.ProjectDir = F:\Companies\Github Projects\Architectures\CleanArch\Presentation\CleanArch.MVCUI\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = F:\Companies\Github Projects\Architectures\CleanArch\Presentation\CleanArch.MVCUI
 build_property._RazorSourceGeneratorDebug = 
+
+[F:/Companies/Github Projects/Architectures/CleanArch/Presentation/CleanArch.MVCUI/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Companies/Github Projects/Architectures/CleanArch/Presentation/CleanArch.MVCUI/Views/Persons/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Companies/Github Projects/Architectures/CleanArch/Presentation/CleanArch.MVCUI/Views/Persons/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Companies/Github Projects/Architectures/CleanArch/Presentation/CleanArch.MVCUI/Views/Persons/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Companies/Github Projects/Architectures/CleanArch/Presentation/CleanArch.MVCUI/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Companies/Github Projects/Architectures/CleanArch/Presentation/CleanArch.MVCUI/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 

@@ -7,7 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Controller\Orders\" />
+    <Folder Include="Controllers\Orders\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\CleanArch.Core.Application\CleanArch.Core.Application.csproj" />
+    <ProjectReference Include="..\..\Core\CleanArch.Core.Contracts\CleanArch.Core.Contracts.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\CleanArch.Infrastructure.Data\CleanArch.Infrastructure.Data.csproj" />
   </ItemGroup>
 
 </Project>

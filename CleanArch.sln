@@ -27,7 +27,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Test.UnitTest", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Core.Contracts", "Core\CleanArch.Core.Contracts\CleanArch.Core.Contracts.csproj", "{59A0765D-7B3A-4369-ACFE-8D0A530D6A45}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.RazorUI", "Presentation\CleanArch.RazorUI\CleanArch.RazorUI.csproj", "{965DF135-776E-487A-90C5-381011CE9CF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.RazorPageUI", "Presentation\CleanArch.RazorPageUI\CleanArch.RazorPageUI.csproj", "{363E7714-EF7C-41BC-BC4F-B33AE2B97B43}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,10 +67,10 @@ Global
 		{59A0765D-7B3A-4369-ACFE-8D0A530D6A45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59A0765D-7B3A-4369-ACFE-8D0A530D6A45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59A0765D-7B3A-4369-ACFE-8D0A530D6A45}.Release|Any CPU.Build.0 = Release|Any CPU
-		{965DF135-776E-487A-90C5-381011CE9CF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{965DF135-776E-487A-90C5-381011CE9CF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{965DF135-776E-487A-90C5-381011CE9CF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{965DF135-776E-487A-90C5-381011CE9CF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{363E7714-EF7C-41BC-BC4F-B33AE2B97B43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{363E7714-EF7C-41BC-BC4F-B33AE2B97B43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{363E7714-EF7C-41BC-BC4F-B33AE2B97B43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{363E7714-EF7C-41BC-BC4F-B33AE2B97B43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -84,7 +84,7 @@ Global
 		{E1DBC8EA-90CE-4FC4-9FFC-34A12D96109E} = {D6687838-971E-4C8D-8D24-9F03C81DE2F6}
 		{2772D4B5-5C70-4063-9655-DD0339820CD2} = {D1171770-EFC7-4362-86AF-D30FEAA4EA82}
 		{59A0765D-7B3A-4369-ACFE-8D0A530D6A45} = {422C19CE-C198-47AF-8ADA-AA20EECC81E8}
-		{965DF135-776E-487A-90C5-381011CE9CF0} = {D6687838-971E-4C8D-8D24-9F03C81DE2F6}
+		{363E7714-EF7C-41BC-BC4F-B33AE2B97B43} = {D6687838-971E-4C8D-8D24-9F03C81DE2F6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B52E0089-16ED-4E66-B56C-9B09033F6C01}

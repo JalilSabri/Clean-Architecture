@@ -1,17 +1,35 @@
-using CleanArch.Infrastructure.Data.Context;
 using Microsoft.EntityFrameworkCore;
+using CleanArch.Infrastructure.Data.Context;
+using CleanArch.Infrastructure.Data.Repositories.Persons;
+using CleanArch.Core.Contracts.IRepositories.Persons;
+using CleanArch.Core.Contracts.IServices.Persons;
+using CleanArch.Core.Application.Services.Persons;
 
 var builder = WebApplication.CreateBuilder(args);
-var vv = builder.Configuration.GetConnectionString("CleanArchDB");
 
-//IConfiguration configuration = builder.Configuration;
+builder.Services.AddMvc();
 builder.Services.AddDbContext<CleanArchDbContext>(option =>
 {
     option.UseSqlServer(builder.Configuration.GetConnectionString("CleanArchDB"));
 });
 
+builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
+builder.Services.AddTransient<ICustomerService, CustomerService>();
+builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 var app = builder.Build();
 
-app.MapGet("/", () => "Hello World!");
-
+app.UseRouting();
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllerRoute("default", "{Controller=Customer}/{Action=Index}/{id?}");
+});
+app.UseStaticFiles();
 app.Run();
+
+
+
+#region .:| Commit |:.
+
+//IConfiguration configuration = builder.Configuration;
+
+#endregion

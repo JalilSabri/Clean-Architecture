@@ -16,5 +16,5 @@ Presentation\CleanArch.API\obj
 Test\CleanArch.UnitTest\bin
 Test\CleanArch.UnitTest\Obj
 Core\CleanArch.Core.Domain\Models\Draft
-Presentation\CleanArch.RazorUI\bin
-Presentation\CleanArch.RazorUI\obj
+Presentation\CleanArch.RazorPageUI\bin
+Presentation\CleanArch.RazorPageUI\obj

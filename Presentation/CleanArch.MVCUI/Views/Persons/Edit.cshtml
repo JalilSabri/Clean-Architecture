@@ -1,0 +1,37 @@
+﻿@model CleanArch.Core.Domain.Models.Persons.Customer;
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<form method="post" asp-controller="Teacher" asp-action="Edit">
+    <div class="container">
+        <div id="divMain">
+            <div class="row form-group">
+                <div class="col-lg-3 text-right"><label asp-for="person.FirstName" class="control-label"></label></div>
+                <div class="col-lg-8"><input type="text" asp-for="person.FirstName" class="form-control text-danger" placeholder="First name" /></div>
+            </div>
+            <div class="row form-group">
+                <div class="col-lg-3 text-right"> <label asp-for="person.LastName" class="control-label"></label> </div>
+                <div class="col-lg-8"><input type="text" asp-for="person.LastName" class="form-control text-danger" placeholder="Last name" /></div>
+            </div>
+            <div class="row form-group">
+                <div class="col-lg-3 text-right"> <label asp-for="Email" class="control-label"></label> </div>
+                <div class="col-lg-8"><input type="text" asp-for="Email" class="form-control text-danger" placeholder="Email Address" /></div>
+            </div>
+            <div class="row form-group">
+                <div class="col-lg-3 text-right"> <label asp-for="Phone" class="control-label"></label> </div>
+                <div class="col-lg-8"><input type="text" asp-for="Phone" class="form-control text-danger" placeholder="Phone Number" /></div>
+            </div>
+        </div>
+        <div class="row form-group">
+            <div class="col-lg-2 text-left">
+                <a asp-action="Index" class="text-warning label-site-caption">«« Back To List</a>
+            </div>
+            <div class="col-lg-8"> </div>
+            <div class="col-lg-2 text-right">
+                <input type="submit" class="btn-success" value="Create" asp-controller="customer" asp-action="Create" />
+            </div>
+        </div>
+    </div>
+    </div>
+</form>

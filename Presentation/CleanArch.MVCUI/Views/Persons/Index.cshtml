@@ -1,0 +1,45 @@
+﻿@using CleanArch.Core.Domain.Models.Persons;
+@model List<Customer>;
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    //ViewBag["Title"] = "Customer List";
+}
+<h3>List Of Customers</h3>
+<hr />
+<form>
+    <div class="container">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Customer ID</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th colspan="3" class="text-center">Operation</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    foreach (var customer in Model)
+                    {
+                        <tr>
+                            <td>@customer.Id</td>
+                            <td>@customer.person.FirstName</td>
+                            <td>@customer.person.LastName</td>
+                            <td><a class="btn btn-default">Details</a></td>
+                            <td><a class="btn btn-warning" asp-controller="customer" asp-action="Edit" asp-route-Id="@customer.Id">Edit</a></td>
+                            <td><a class="btn btn-danger Operations-button" asp-controller="customer" asp-action="Delete" asp-route-Id="@customer.Id" onclick="return confirm('Are you sure?');">Remove</a></td>
+                        </tr>
+                    }
+                }
+            </tbody>
+            <tfooter>
+
+            </tfooter>
+        </table>
+        <div>
+            <a id="btnAdd" class="btn btn-primary" asp-controller="Customer" asp-action="Create">Add Customer +</a>
+        </div>
+
+    </div>
+</form>

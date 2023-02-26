@@ -18,9 +18,29 @@ namespace CleanArch.Core.Application.Services.Persons
             _customerRepository = customerRepository;
         }
 
-        public void AddCustomerService(Customer customer)
+        public void AddCustomer(Customer customer)
         {
             _customerRepository.Add(customer);
+        }
+
+        public void Delete(Customer customer)
+        {
+            _customerRepository.Delete(customer);
+        }
+
+        public void DeleteById(string id)
+        {
+            _customerRepository.DeleteById(id);
+        }
+
+        public IList<Customer> GetAll()
+        {
+            return _customerRepository.GetAll().ToList();
+        }
+
+        public Customer? GetById(string id)
+        {
+            return _customerRepository.GetById(id);
         }
     }
 }
