@@ -21,7 +21,8 @@ var app = builder.Build();
 app.UseRouting();
 app.UseEndpoints(endpoints =>
 {
-    endpoints.MapControllerRoute("default", "{Controller=Customer}/{Action=Index}/{id?}");
+    //endpoints.MapControllers();
+    endpoints.MapControllerRoute("default", "{Controller=Home}/{Action=Index}/{id?}");
 });
 app.UseStaticFiles();
 app.Run();

@@ -1,4 +1,4 @@
-﻿using CleanArch.Core.Domain.Entites.Common;
+﻿using CleanArch.Core.Domain.Common;
 using CleanArch.Core.Domain.Models.Products;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;

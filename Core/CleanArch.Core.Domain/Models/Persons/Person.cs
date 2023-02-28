@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
-using CleanArch.Core.Domain.Entites.Common;
+using CleanArch.Core.Domain.Common;
 
 namespace CleanArch.Core.Domain.Models.Persons
 {

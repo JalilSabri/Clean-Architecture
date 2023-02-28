@@ -1,4 +1,4 @@
-﻿using CleanArch.Core.Domain.Entites.Common;
+﻿using CleanArch.Core.Domain.Common;
 using CleanArch.Core.Domain.Models.Persons;
 using System;
 using System.Collections.Generic;
